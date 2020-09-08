@@ -1,0 +1,5 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <option id="java.method.name.contains.parameter.name" value="true" />
+  </component>
+</application>

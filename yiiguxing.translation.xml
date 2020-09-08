@@ -1,0 +1,64 @@
+<application>
+  <component name="AppStorage">
+    <histories>
+      <item value="Ware Order Task" />
+      <item value="IDENTITY" />
+      <item value="Retention" />
+      <item value="@Retention(Retention Policy.RUNTIME)" />
+      <item value="destination" />
+      <item value="the authorities granted to the principal" />
+      <item value="flush" />
+      <item value="Returns the key corresponding to this entry." />
+      <item value="Duplicate" />
+      <item value="Provided so that subclasses may configure what is put into the authentication * request's details property." />
+      <item value="This constructor should only be used by &lt;code&gt;AuthenticationManager&lt;/code&gt; or * &lt;code&gt;AuthenticationProvider&lt;/code&gt; implementations that are satisfied with * producing a trusted (i.e. {@link #isAuthenticated()} = &lt;code&gt;true&lt;/code&gt;) * authentication token." />
+      <item value="Associates a given {@link SecurityContext} with the current execution thread. * &lt;p&gt; * This class provides a series of static methods that delegate to an instance of * {@link org.springframework.security.core.context.SecurityContextHolderStrategy}. The * purpose of the class is to provide a convenient way to specify the strategy that should * be used for a given JVM. This is a JVM-wide setting, since everything in this class is * &lt;code&gt;static&lt;/code&gt; to facilitate ease of use in calling code. * &lt;p&gt; * To specify which strategy should be used, you must provide a mode setting. A mode * setting is one of the three valid &lt;code&gt;MODE_&lt;/code&gt; settings defined as * &lt;code&gt;static final&lt;/code&gt; fields, or a fully qualified classname to a concrete * implementation of * {@link org.springframework.security.core.context.SecurityContextHolderStrategy} that * provides a public no-argument constructor. * &lt;p&gt; * There are two ways to specify the desired strategy mode &lt;code&gt;String&lt;/code&gt;. The first * is to specify it via the system property keyed on {@link #SYSTEM_PROPERTY}. The second * is to call {@link #setStrategyName(String)} before using the class. If neither approach * is used, the class will default to using {@link #MODE_THREADLOCAL}, which is backwards * compatible, has fewer JVM incompatibilities and is appropriate on servers (whereas * {@link #MODE_GLOBAL} is definitely inappropriate for server use)." />
+      <item value="exclude-filter" />
+      <item value="Authentication" />
+      <item value="get Context" />
+      <item value="Username Password Authentication Token" />
+      <item value="credentials" />
+      <item value="Returns the authorities granted to the user." />
+      <item value="parse" />
+      <item value="This is deprecated." />
+      <item value="This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary" />
+      <item value="sufficient precision" />
+      <item value="sufficient" />
+      <item value="represented" />
+      <item value="If the &lt;code&gt;ConfigAttribute&lt;/code&gt; can be represented as a &lt;code&gt;String&lt;/code&gt; and * that &lt;code&gt;String&lt;/code&gt; is sufficient in precision to be relied upon as a * configuration parameter by a {@link RunAsManager}, {@link AccessDecisionManager} or * &lt;code&gt;AccessDecisionManager&lt;/code&gt; delegate, this method should return such a * &lt;code&gt;String&lt;/code&gt;. * &lt;p&gt; * If the &lt;code&gt;ConfigAttribute&lt;/code&gt; cannot be expressed with sufficient precision * as a &lt;code&gt;String&lt;/code&gt;, &lt;code&gt;null&lt;/code&gt; should be returned. Returning * &lt;code&gt;null&lt;/code&gt; will require any relying classes to specifically support the * &lt;code&gt;ConfigAttribute&lt;/code&gt; implementation, so returning &lt;code&gt;null&lt;/code&gt; should * be avoided unless actually required. * * @return a representation of the configuration attribute (or &lt;code&gt;null&lt;/code&gt; if * the configuration attribute cannot be expressed as a &lt;code&gt;String&lt;/code&gt; with * sufficient precision)." />
+      <item value="ontains both filtering and authorization expression meta-data for Spring-EL based * access control. * &lt;p&gt; * Base class for pre or post-invocation phases of a method invocation. * &lt;p&gt; * Either filter or authorization expressions may be null, but not both." />
+      <item value="optimize" />
+      <item value="authorities" />
+      <item value="Returns the username used to authenticate the user." />
+      <item value="Indicates whether the user is locked or unlocked. A locked user cannot be * authenticated." />
+      <item value="Indicates whether the user's credentials (password) has expired." />
+      <item value="assert" />
+      <item value="Asserts" />
+      <item value="Direct Exchange" />
+      <item value="System.current Time Millis()" />
+      <item value="Authentication Entry Point" />
+      <item value="subtract" />
+      <item value="Aggregation" />
+      <item value="post Process Message" />
+      <item value="A granted authority textual representation is required" />
+      <item value="Stores a {@code String} representation of an authority granted to the * {@link org.springframework.security.core.Authentication Authentication} object." />
+      <item value="Assert that the given String contains valid text content; that is, it must not * be {@code null} and must contain at least one non-whitespace character. * &lt;pre class=&quot;code&quot;&gt;Assert.hasText(name, &quot;'name' must not be empty&quot;);&lt;/pre&gt; * @param text the String to check * @param message the exception message to use if the assertion fails * @throws IllegalArgumentException if the text does not contain valid text content * @see StringUtils#hasText" />
+      <item value="Millis" />
+      <item value="Gmt Create" />
+      <item value="access" />
+      <item value="* If the &lt;code&gt;ConfigAttribute&lt;/code&gt; can be represented as a &lt;code&gt;String&lt;/code&gt; and * that &lt;code&gt;String&lt;/code&gt; is sufficient in precision to be relied upon as a * configuration parameter by a {@link RunAsManager}, {@link AccessDecisionManager} or * &lt;code&gt;AccessDecisionManager&lt;/code&gt; delegate, this method should return such a * &lt;code&gt;String&lt;/code&gt;. * &lt;p&gt; * If the &lt;code&gt;ConfigAttribute&lt;/code&gt; cannot be expressed with sufficient precision * as a &lt;code&gt;String&lt;/code&gt;, &lt;code&gt;null&lt;/code&gt; should be returned. Returning * &lt;code&gt;null&lt;/code&gt; will require any relying classes to specifically support the * &lt;code&gt;ConfigAttribute&lt;/code&gt; implementation, so returning &lt;code&gt;null&lt;/code&gt; should * be avoided unless actually required. * * @return a representation of the configuration attribute (or &lt;code&gt;null&lt;/code&gt; if * the configuration attribute cannot be expressed as a &lt;code&gt;String&lt;/code&gt; with * sufficient precision)." />
+      <item value="** * Compares this principal to the specified object. Returns true * if the object passed in matches the principal represented by * the implementation of this interface. * * @param another principal to compare with. * * @return true if the principal passed in is the same as that * encapsulated by this principal, and false otherwise." />
+      <item value="Basic concrete implementation of a {@link GrantedAuthority}. * * &lt;p&gt; * Stores a {@code String} representation of an authority granted to the * {@link org.springframework.security.core.Authentication Authentication} object. * * @author Luke Taylor" />
+      <item value="* Assert a boolean expression, throwing an {@code IllegalStateException} * if the expression evaluates to {@code false}. * &lt;p&gt;Call {@link #isTrue} if you wish to throw an {@code IllegalArgumentException} * on an assertion failure. * &lt;pre class=&quot;code&quot;&gt;Assert.state(id == null, &quot;The id property must not already be initialized&quot;);&lt;/pre&gt; * @param expression a boolean expression * @param message the exception message to use if the assertion fails * @throws IllegalStateException if {@code expression} is {@code false}" />
+      <item value="If the &lt;code&gt;GrantedAuthority&lt;/code&gt; can be represented as a &lt;code&gt;String&lt;/code&gt; * and that &lt;code&gt;String&lt;/code&gt; is sufficient in precision to be relied upon for an * access control decision by an {@link AccessDecisionManager} (or delegate), this * method should return such a &lt;code&gt;String&lt;/code&gt;. * &lt;p&gt; * If the &lt;code&gt;GrantedAuthority&lt;/code&gt; cannot be expressed with sufficient precision * as a &lt;code&gt;String&lt;/code&gt;, &lt;code&gt;null&lt;/code&gt; should be returned. Returning * &lt;code&gt;null&lt;/code&gt; will require an &lt;code&gt;AccessDecisionManager&lt;/code&gt; (or delegate) * to specifically support the &lt;code&gt;GrantedAuthority&lt;/code&gt; implementation, so * returning &lt;code&gt;null&lt;/code&gt; should be avoided unless actually required. * * @return a representation of the granted authority (or &lt;code&gt;null&lt;/code&gt; if the * granted authority cannot be expressed as a &lt;code&gt;String&lt;/code&gt; with sufficient * precision)." />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="98" />
+        <entry key="ENGLISH" value="99" />
+        <entry key="CHINESE_TRADITIONAL" value="1" />
+        <entry key="INDONESIAN" value="1" />
+      </map>
+    </option>
+  </component>
+</application>
