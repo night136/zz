@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="An AtomicStampedReference maintains an object reference along with an integer &quot;stamp&quot;, that can be updated atomically." />
       <item value="Ware Order Task" />
       <item value="IDENTITY" />
       <item value="Retention" />
@@ -50,12 +51,11 @@
       <item value="** * Compares this principal to the specified object. Returns true * if the object passed in matches the principal represented by * the implementation of this interface. * * @param another principal to compare with. * * @return true if the principal passed in is the same as that * encapsulated by this principal, and false otherwise." />
       <item value="Basic concrete implementation of a {@link GrantedAuthority}. * * &lt;p&gt; * Stores a {@code String} representation of an authority granted to the * {@link org.springframework.security.core.Authentication Authentication} object. * * @author Luke Taylor" />
       <item value="* Assert a boolean expression, throwing an {@code IllegalStateException} * if the expression evaluates to {@code false}. * &lt;p&gt;Call {@link #isTrue} if you wish to throw an {@code IllegalArgumentException} * on an assertion failure. * &lt;pre class=&quot;code&quot;&gt;Assert.state(id == null, &quot;The id property must not already be initialized&quot;);&lt;/pre&gt; * @param expression a boolean expression * @param message the exception message to use if the assertion fails * @throws IllegalStateException if {@code expression} is {@code false}" />
-      <item value="If the &lt;code&gt;GrantedAuthority&lt;/code&gt; can be represented as a &lt;code&gt;String&lt;/code&gt; * and that &lt;code&gt;String&lt;/code&gt; is sufficient in precision to be relied upon for an * access control decision by an {@link AccessDecisionManager} (or delegate), this * method should return such a &lt;code&gt;String&lt;/code&gt;. * &lt;p&gt; * If the &lt;code&gt;GrantedAuthority&lt;/code&gt; cannot be expressed with sufficient precision * as a &lt;code&gt;String&lt;/code&gt;, &lt;code&gt;null&lt;/code&gt; should be returned. Returning * &lt;code&gt;null&lt;/code&gt; will require an &lt;code&gt;AccessDecisionManager&lt;/code&gt; (or delegate) * to specifically support the &lt;code&gt;GrantedAuthority&lt;/code&gt; implementation, so * returning &lt;code&gt;null&lt;/code&gt; should be avoided unless actually required. * * @return a representation of the granted authority (or &lt;code&gt;null&lt;/code&gt; if the * granted authority cannot be expressed as a &lt;code&gt;String&lt;/code&gt; with sufficient * precision)." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="98" />
-        <entry key="ENGLISH" value="99" />
+        <entry key="CHINESE" value="99" />
+        <entry key="ENGLISH" value="100" />
         <entry key="CHINESE_TRADITIONAL" value="1" />
         <entry key="INDONESIAN" value="1" />
       </map>
