@@ -1,11 +1,12 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="TYPE" />
+      <item value="Retention" />
       <item value="IDENTITY" />
       <item value="Generation Type.IDENTITY" />
       <item value="An AtomicStampedReference maintains an object reference along with an integer &quot;stamp&quot;, that can be updated atomically." />
       <item value="Ware Order Task" />
-      <item value="Retention" />
       <item value="@Retention(Retention Policy.RUNTIME)" />
       <item value="destination" />
       <item value="the authorities granted to the principal" />
@@ -50,12 +51,11 @@
       <item value="access" />
       <item value="* If the &lt;code&gt;ConfigAttribute&lt;/code&gt; can be represented as a &lt;code&gt;String&lt;/code&gt; and * that &lt;code&gt;String&lt;/code&gt; is sufficient in precision to be relied upon as a * configuration parameter by a {@link RunAsManager}, {@link AccessDecisionManager} or * &lt;code&gt;AccessDecisionManager&lt;/code&gt; delegate, this method should return such a * &lt;code&gt;String&lt;/code&gt;. * &lt;p&gt; * If the &lt;code&gt;ConfigAttribute&lt;/code&gt; cannot be expressed with sufficient precision * as a &lt;code&gt;String&lt;/code&gt;, &lt;code&gt;null&lt;/code&gt; should be returned. Returning * &lt;code&gt;null&lt;/code&gt; will require any relying classes to specifically support the * &lt;code&gt;ConfigAttribute&lt;/code&gt; implementation, so returning &lt;code&gt;null&lt;/code&gt; should * be avoided unless actually required. * * @return a representation of the configuration attribute (or &lt;code&gt;null&lt;/code&gt; if * the configuration attribute cannot be expressed as a &lt;code&gt;String&lt;/code&gt; with * sufficient precision)." />
       <item value="** * Compares this principal to the specified object. Returns true * if the object passed in matches the principal represented by * the implementation of this interface. * * @param another principal to compare with. * * @return true if the principal passed in is the same as that * encapsulated by this principal, and false otherwise." />
-      <item value="Basic concrete implementation of a {@link GrantedAuthority}. * * &lt;p&gt; * Stores a {@code String} representation of an authority granted to the * {@link org.springframework.security.core.Authentication Authentication} object. * * @author Luke Taylor" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="101" />
-        <entry key="ENGLISH" value="102" />
+        <entry key="CHINESE" value="103" />
+        <entry key="ENGLISH" value="104" />
         <entry key="CHINESE_TRADITIONAL" value="1" />
         <entry key="INDONESIAN" value="1" />
       </map>
