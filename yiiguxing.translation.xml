@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="authorities" />
       <item value="runtime" />
       <item value="retrieved" />
       <item value="TYPE" />
@@ -33,7 +34,6 @@
       <item value="If the &lt;code&gt;ConfigAttribute&lt;/code&gt; can be represented as a &lt;code&gt;String&lt;/code&gt; and * that &lt;code&gt;String&lt;/code&gt; is sufficient in precision to be relied upon as a * configuration parameter by a {@link RunAsManager}, {@link AccessDecisionManager} or * &lt;code&gt;AccessDecisionManager&lt;/code&gt; delegate, this method should return such a * &lt;code&gt;String&lt;/code&gt;. * &lt;p&gt; * If the &lt;code&gt;ConfigAttribute&lt;/code&gt; cannot be expressed with sufficient precision * as a &lt;code&gt;String&lt;/code&gt;, &lt;code&gt;null&lt;/code&gt; should be returned. Returning * &lt;code&gt;null&lt;/code&gt; will require any relying classes to specifically support the * &lt;code&gt;ConfigAttribute&lt;/code&gt; implementation, so returning &lt;code&gt;null&lt;/code&gt; should * be avoided unless actually required. * * @return a representation of the configuration attribute (or &lt;code&gt;null&lt;/code&gt; if * the configuration attribute cannot be expressed as a &lt;code&gt;String&lt;/code&gt; with * sufficient precision)." />
       <item value="ontains both filtering and authorization expression meta-data for Spring-EL based * access control. * &lt;p&gt; * Base class for pre or post-invocation phases of a method invocation. * &lt;p&gt; * Either filter or authorization expressions may be null, but not both." />
       <item value="optimize" />
-      <item value="authorities" />
       <item value="Returns the username used to authenticate the user." />
       <item value="Indicates whether the user is locked or unlocked. A locked user cannot be * authenticated." />
       <item value="Indicates whether the user's credentials (password) has expired." />
@@ -54,8 +54,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="105" />
-        <entry key="ENGLISH" value="106" />
+        <entry key="CHINESE" value="106" />
+        <entry key="ENGLISH" value="107" />
         <entry key="CHINESE_TRADITIONAL" value="1" />
         <entry key="INDONESIAN" value="1" />
       </map>
