@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="runtime" />
       <item value="retrieved" />
       <item value="TYPE" />
       <item value="Retention" />
@@ -50,12 +51,11 @@
       <item value="Millis" />
       <item value="Gmt Create" />
       <item value="access" />
-      <item value="* If the &lt;code&gt;ConfigAttribute&lt;/code&gt; can be represented as a &lt;code&gt;String&lt;/code&gt; and * that &lt;code&gt;String&lt;/code&gt; is sufficient in precision to be relied upon as a * configuration parameter by a {@link RunAsManager}, {@link AccessDecisionManager} or * &lt;code&gt;AccessDecisionManager&lt;/code&gt; delegate, this method should return such a * &lt;code&gt;String&lt;/code&gt;. * &lt;p&gt; * If the &lt;code&gt;ConfigAttribute&lt;/code&gt; cannot be expressed with sufficient precision * as a &lt;code&gt;String&lt;/code&gt;, &lt;code&gt;null&lt;/code&gt; should be returned. Returning * &lt;code&gt;null&lt;/code&gt; will require any relying classes to specifically support the * &lt;code&gt;ConfigAttribute&lt;/code&gt; implementation, so returning &lt;code&gt;null&lt;/code&gt; should * be avoided unless actually required. * * @return a representation of the configuration attribute (or &lt;code&gt;null&lt;/code&gt; if * the configuration attribute cannot be expressed as a &lt;code&gt;String&lt;/code&gt; with * sufficient precision)." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="104" />
-        <entry key="ENGLISH" value="105" />
+        <entry key="CHINESE" value="105" />
+        <entry key="ENGLISH" value="106" />
         <entry key="CHINESE_TRADITIONAL" value="1" />
         <entry key="INDONESIAN" value="1" />
       </map>
